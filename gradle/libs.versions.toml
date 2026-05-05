@@ -1,0 +1,62 @@
+[versions]
+agp = "8.13.2"
+kotlin = "2.0.0"
+coreKtx = "1.18.0"
+junit = "4.13.2"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
+appcompat = "1.7.1"
+material = "1.13.0"
+hilt = "2.57.2"
+ksp = "2.0.0-1.0.22"
+paging = "3.4.2"
+coroutines = "1.3.9"
+retrofit = "2.9.0"
+okhttp = "4.9.0"
+gson = "2.8.6"
+room = "2.6.1"
+runtime = "1.11.0"
+ui = "1.11.0"
+roomKtx = "2.8.4"
+hilt-naviation-compose = "1.3.0"
+compose="1.7.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
+hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+paging-runtime = { group = "androidx.paging", name = "paging-runtime", version.ref = "paging" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "coroutines" }
+retrofit2 = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+okhttp3 = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson" }
+retrofit2-gson-converter = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+okhttp3-logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "okhttp" }
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+compose-runtime = { group = "androidx.compose.runtime", name = "runtime", version.ref = "runtime" }
+compose-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "ui" }
+compose-material = { group = "androidx.compose.material", name = "material", version.ref = "ui" }
+compose-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref = "ui" }
+compose-activity = { group = "androidx.activity", name = "activity-compose", version.ref = "ui" }
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-naviation-compose" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
+compose-compiler-extension = { group = "androidx.compose.compiler", name = "compiler", version.ref = "compose" }
+
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+google-devtools-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+
+
+
